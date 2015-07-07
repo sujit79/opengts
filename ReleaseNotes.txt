@@ -1,0 +1,32 @@
+
+Version 2.5.9 [2015/05/15]
+- NEW: Added additional status codes.
+- NEW: Added "vehicleYear" to Device.java table module.
+- NEW: Added "dutyStatus" to Driver.java table module.
+- NEW: Added additional fields to EventData.java table module.
+- NEW: Added separate city/state/zip/etc field parsing to Google reverse-geocoder
+- NEW: ServerSocketThread "maxClientPoolSize" now also applied to UDP listeners
+- NEW: Added "googleLink" support to "index" report columns
+- NEW: Added additional redirect support to FileTools.java "copyFile(URL...")
+- UPD: Nmea0183 module updated to handle additional custom record types.
+- UPD: Added support for associating a pushpin with a Geozone on the Device map.
+- FIX: "SeverSocketThread.java" now handles native thread creation error condition.
+- FIX: Fixed Account.java "gtsDiskUsage" free space display.
+- FIX: Fixed swapped badge#/license# display on Driver Admin list page.
+
+-----------------------------------------------------------------------------------
+
+Project Home Page:
+    http://www.opengts.org
+
+Download Latest Version from SourceForge:
+    https://sourceforge.net/projects/opengts/
+
+Documentation (installation/configuration, tutorials, FAQ):
+    http://www.opengts.org/FAQ.html
+    http://www.opengts.org/documentation.html
+
+GTS Enterprise:
+    http://www.geotelematic.com/gts.html
+    http://www.geotelematic.com/documentation.html
+
